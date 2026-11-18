@@ -15,3 +15,9 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Pet TV v3: scrolling "Now showing" ticker on the home screen */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
